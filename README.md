@@ -22,22 +22,23 @@ To get started follow these steps:
    cd Medical-Chatbot-Llama-2
    pip install -r requirements.txt
    ```
-3.Pdf data:
-  Place medical PDF documents in the data/ directory.
+3. **Pdf data:**
+   Place medical PDF documents in the data/ directory.
   
-4.Download the model:
-  Obtain the llama-2-7b-chat.ggmlv3.q8_0.bin file and place it in the project directory.
-5.Data setup
-  Run the ingestion script to preprocess the documents and create the vector store.
+4. **Download the model:**
+   Obtain the llama-2-7b-chat.ggmlv3.q8_0.bin file and place it in the project directory.
+   
+6. **Data setup**
+   Run the ingestion script to preprocess the documents and create the vector store.
    ```
    python ingest.py
    ```
-6.Running the chatbot:
-  Start the chatbot interface
-  ```
-  chainlit run model.py -w
-  ```
-7.Enter your medical query and the chatbot will provide answers sourced from the knowledge base.
+8. **Running the chatbot:**
+   Start the chatbot interface
+   ```
+   chainlit run model.py -w
+   ```
+7. Enter your medical query and the chatbot will provide answers sourced from the knowledge base.
 
 # Dependencies
   Langchain
