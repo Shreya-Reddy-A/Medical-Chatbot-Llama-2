@@ -12,32 +12,34 @@ This project offers a comprehensive medical chatbot solution. Integrated seamles
 # Getting Started
 To get started follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine.
-   ```
-   git clone https://github.com/Shreya-Reddy-A/Medical-Chatbot-Llama-2.git
-   ```
+1. **Clone the Repository**:
+   - Clone this repository to your local machine.
+     ```
+     git clone https://github.com/Shreya-Reddy-A/Medical-Chatbot-Llama-2.git
+     ```
 
-2. **Install Dependencies**: Navigate into the cloned directory and install the necessary dependencies.
-   ```
-   cd Medical-Chatbot-Llama-2
-   pip install -r requirements.txt
-   ```
-3. **Pdf data:**
+3. **Install Dependencies**:
+   - Navigate into the cloned directory and install the necessary dependencies.
+     ```
+     cd Medical-Chatbot-Llama-2
+     pip install -r requirements.txt
+     ```
+5. **Pdf data:**
    - Place medical PDF documents in the data/ directory.
   
-4. **Download the model:**
+6. **Download the model:**
    - Obtain the ```llama-2-7b-chat.ggmlv3.q8_0.bin``` file and place it in the project directory.
    
-6. **Data setup:**
-   Run the ingestion script to preprocess the documents and create the vector store.
-   ```
-   python ingest.py
-   ```
+7. **Data setup:**
+   - Run the ingestion script to preprocess the documents and create the vector store.
+     ```
+     python ingest.py
+     ```
 8. **Running the chatbot:**
-   Start the chatbot interface
-   ```
-   chainlit run model.py -w
-   ```
+   - Start the chatbot interface
+     ```
+     chainlit run model.py -w
+     ```
 7. Enter your medical query and the chatbot will provide answers sourced from the knowledge base.
 
 # Dependencies
