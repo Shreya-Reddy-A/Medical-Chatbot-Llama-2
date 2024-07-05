@@ -5,9 +5,9 @@ This project offers a comprehensive medical chatbot solution. Integrated seamles
 ![Screenshot (226)](https://github.com/Shreya-Reddy-A/Medical-Chatbot-Llama-2/assets/122392746/bdc204f8-b988-4e0a-9590-129287aa0d60)
 
 # Features
-  - ***Question Answering:*** System responds to medical queries using pre-processed medical documents.
-  - ***Interactive Chat Interface:*** Users interact via ChainLit-powered interface
-  - ***Efficient Data Ingestion:*** A script to ingest and preprocess PDF documents, creating a searchable vector store for the knowledge base.
+  - **Question Answering:** System responds to medical queries using pre-processed medical documents.
+  - **Interactive Chat Interface:** Users interact via ChainLit-powered interface
+  - **Vector Store Creation and Data Ingestion:** A script to ingest and preprocess PDF documents, creating a searchable vector store for the knowledge base.
 
 # Getting Started
 To get started follow these steps:
@@ -28,7 +28,7 @@ To get started follow these steps:
 4. **Download the model:**
    - Obtain the ```llama-2-7b-chat.ggmlv3.q8_0.bin``` file and place it in the project directory.
    
-6. **Data setup**
+6. **Data setup:**
    Run the ingestion script to preprocess the documents and create the vector store.
    ```
    python ingest.py
