@@ -1,6 +1,6 @@
 # Medical-Chatbot
 
-This project offers a comprehensive medical chatbot solution. Integrated seamlessly with ChainLit, it provides an easy-to-use chat interface powered by the LLAMA-2 language model renowned for its natural language processing capabilities. The chatbot efficiently retrieves and delivers precise information from a structured knowledge base stored in PDF documents, making it adept at handling complex medical queries with ease.
+This project offers a comprehensive medical chatbot solution. Integrated seamlessly with ChainLit, it provides an easy-to-use chat interface powered by the LLAMA-2 language model renowned for its natural language processing capabilities. The chatbot efficiently retrieves and delivers precise information from a structured knowledge base stored in PDF documents, making it adept at handling complex medical queries with ease..
 
 ![Screenshot (226)](https://github.com/Shreya-Reddy-A/Medical-Chatbot-Llama-2/assets/122392746/bdc204f8-b988-4e0a-9590-129287aa0d60)
 
