@@ -4,12 +4,12 @@ This project offers a comprehensive medical chatbot solution. Integrated seamles
 
 ![Screenshot (226)](https://github.com/Shreya-Reddy-A/Medical-Chatbot-Llama-2/assets/122392746/bdc204f8-b988-4e0a-9590-129287aa0d60)
 
-#Features
+# Features
   Question Answering: System responds to medical queries using pre-processed medical documents.
   Interactive Chat Interface: Users interact via ChainLit-powered interface
   Efficient Data Ingestion: A script to ingest and preprocess PDF documents, creating a searchable vector store for the knowledge base.
 
-#Getting Started
+# Getting Started
 To get started follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine.
@@ -39,7 +39,7 @@ To get started follow these steps:
   ```
 7.Enter your medical query and the chatbot will provide answers sourced from the knowledge base.
 
-#Dependencies
+# Dependencies
   Langchain
   ChainLit
   Hugging Face Transformers
